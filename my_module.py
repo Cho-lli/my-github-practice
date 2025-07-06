@@ -30,7 +30,7 @@ def length_unit_converter():
         print(f"Invalid source unit. Available units are: {', '.join(units_list)}")
         return
 
-    # Get destination unit
+    # Get destination unit that is the main destination 
     destination_unit = input("Enter the destination unit: ").lower()
     if destination_unit not in unit_to_meters:
         print(f"Invalid destination unit. Available units are: {', '.join(units_list)}")
